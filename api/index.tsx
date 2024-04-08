@@ -22,6 +22,7 @@ export const app = new Frog({
 
 // Cast action handler
 app.hono.post("/gm", async (c) => {
+  console.log(c);
   const body = await c.req.json();
 
   const { isValid, message } = await validateFramesMessage(body);
