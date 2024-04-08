@@ -1,0 +1,26 @@
+{
+  "name": "gm",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npx @airstack/frog vercel-build",
+    "dev": "npx @airstack/frog dev",
+    "deploy": "vercel --prod",
+    "deploy:preview": "vercel"
+  },
+  "dependencies": {
+    "@airstack/frog": "^0.0.8",
+    "@vercel/kv": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "hono": "^4"
+  },
+  "author": {
+    "name": "Yoseph Kurnia Soenggoro",
+    "url": "https://github.com/yosephks"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "vercel": "^33.7.0"
+  }
+}
