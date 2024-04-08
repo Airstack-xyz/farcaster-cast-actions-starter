@@ -35,4 +35,4 @@ Then, also add the [Airstack API key](https://docs.airstack.xyz/airstack-docs-an
 AIRSTACK_API_KEY=xxx
 ```
 
-Access the GM cast actions from the http://<VERCEL-SUBDOMAIN>.vercel.app/api/gm endpoint.
+Access the GM cast actions from the `https://<VERCEL-SUBDOMAIN>.vercel.app/api/gm` endpoint.
