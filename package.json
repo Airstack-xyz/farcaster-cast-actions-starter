@@ -9,7 +9,7 @@
     "deploy:preview": "vercel"
   },
   "dependencies": {
-    "@airstack/frog": "^0.0.8",
+    "@airstack/frog": "^0.0.17",
     "@vercel/kv": "^1.0.1",
     "dotenv": "^16.4.5",
     "hono": "^4"
